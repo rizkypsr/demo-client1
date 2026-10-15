@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Info Jadwal Perjalanan Tour</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Outer wrapper: Simulated mobile frame on desktop, 100% full screen on phone -->
+  <div class="device-wrapper">
+    
+    <!-- Notch / Camera Bar Simulation -->
+    <div class="device-notch">
+      <div class="speaker"></div>
+      <div class="camera"></div>
+    </div>
+
+    <!-- Main Screen Body -->
+    <div class="app-screen">
+      
+      <!-- Top Sticky Header -->
+      <header class="top-header">
+        <div class="brand-badge">
+          <div class="brand-logo-icon">🌴</div>
+          <div class="brand-info">
+            <h1>Bali Tour 2026</h1>
+            <p>Informasi Jadwal Perjalanan</p>
+          </div>
+        </div>
+        <div>
+          <button class="header-action-btn" title="Ganti Peserta / Reset Registrasi" onclick="resetDemo()">
+            ↺
+          </button>
+        </div>
+      </header>
+
+      <!-- ==============================================
+           1. REGISTRATION GATE VIEW (Tampilan Awal)
+           ============================================== -->
+      <section id="registration-view">
+        <div class="reg-card">
+          <div class="reg-header">
+            <div class="reg-hero-icon">✈️</div>
+            <h2>Registrasi Peserta</h2>
+            <p>Masukkan data diri Anda untuk membuka seluruh panduan dan jadwal perjalanan wisata.</p>
+          </div>
+
+          <form id="registration-form">
+            <div class="form-group">
+              <label for="reg-name">Nama Lengkap</label>
+              <input type="text" id="reg-name" class="form-input" placeholder="Contoh: Dimas Pratama" required autocomplete="name">
+            </div>
+
+            <div class="form-group">
+              <label for="reg-dept">Departemen / Divisi</label>
+              <select id="reg-dept" class="form-select" required>
+                <option value="" disabled selected>Pilih Departemen Anda...</option>
+                <option value="Engineering & Technology">Engineering & Technology</option>
+                <option value="Product & Design">Product & Design</option>
+                <option value="Marketing, Sales & BD">Marketing, Sales & BD</option>
+                <option value="Finance & Accounting">Finance & Accounting</option>
+                <option value="People & Culture (HR)">People & Culture (HR)</option>
+                <option value="Operations & Supply Chain">Operations & Supply Chain</option>
+                <option value="Executive & Management">Executive & Management</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="reg-phone">No. WhatsApp / Handphone</label>
+              <input type="tel" id="reg-phone" class="form-input" placeholder="Contoh: 081234567890" required autocomplete="tel">
+              <div class="form-hint">Digunakan untuk koordinasi bus dan komunikasi perjalanan.</div>
+            </div>
+
+            <button type="submit" class="btn-primary">
+              Buka Jadwal Perjalanan ➔
+            </button>
+          </form>
+
+          <!-- Quick Fill Button for Fast Client Presentation -->
+          <div class="demo-quick-login">
+            <button type="button" id="btn-quick-demo" class="btn-quick-fill">
+              ⚡ Isi Otomatis Data Demo
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==============================================
+           2. MAIN APP VIEW (Hanya Menu Jadwal & Travel)
+           ============================================== -->
+      <div id="main-views-wrapper" style="display: none;">
+        
+        <section id="view-itinerary" class="view-section active">
+          
+          <!-- User Profile Welcome Card -->
+          <div class="user-badge-card">
+            <div class="user-header-row">
+              <div>
+                <div class="user-greeting">Halo, Rekan Peserta</div>
+                <div class="user-name-title" id="user-display-name">Peserta Demo</div>
+              </div>
+              <span style="font-size: 24px;">🏝️</span>
+            </div>
+            <div class="user-meta-pills">
+              <div class="meta-pill" id="user-display-dept">Engineering</div>
+              <div class="meta-pill" id="user-display-phone">0812-xxxx</div>
+              <div class="meta-pill highlight">✨ Status: Siap Berangkat</div>
+            </div>
+          </div>
+
+          <!-- Announcement Notice -->
+          <div class="notice-box">
+            <span class="notice-icon">📢</span>
+            <div id="event-announcement-text">
+              <strong>Pengumuman:</strong> Kumpul di Bandara Soekarno-Hatta T3 Gate 4 paling lambat pukul 05:30 WIB.
+            </div>
+          </div>
+
+          <!-- Destinasi Wisata Unggulan -->
+          <div class="section-heading">
+            <h3>📍 Destinasi Utama</h3>
+            <span style="color:var(--text-muted);font-weight:normal;">Bali Island Tour</span>
+          </div>
+
+          <div class="destinasi-grid" id="destinasi-list-container">
+            <!-- Dynamic via JS -->
+          </div>
+
+          <!-- Section: Jadwal Perjalanan -->
+          <div class="section-heading" style="margin-top: 20px;">
+            <h3>📅 Jadwal & Agenda Perjalanan</h3>
+          </div>
+
+          <!-- Day Switcher Tabs (Day 1, Day 2, Day 3) -->
+          <div class="day-tabs" id="itinerary-day-tabs">
+            <!-- Dynamic via JS -->
+          </div>
+
+          <!-- Day Theme & Date -->
+          <div id="day-summary-box" style="font-size:12px;font-weight:700;color:var(--dark);margin-bottom:8px;">
+            <!-- Dynamic via JS -->
+          </div>
+
+          <!-- Dresscode Info -->
+          <div class="dresscode-banner" id="itinerary-dresscode">
+            <strong>Dresscode:</strong> Polo Shirt Biru Korporat + Celana Santai
+          </div>
+
+          <!-- Timeline List -->
+          <div class="timeline" id="itinerary-timeline-container">
+            <!-- Dynamic via JS -->
+          </div>
+
+          <!-- Tips Perlengkapan Travel -->
+          <div class="section-heading" style="margin-top: 20px;">
+            <h3>🎒 Tips & Perlengkapan Travel</h3>
+          </div>
+          <div class="guideline-box" id="tips-travel-container">
+            <!-- Dynamic via JS -->
+          </div>
+
+        </section>
+
+      </div> <!-- End #main-views-wrapper -->
+
+    </div> <!-- End .app-screen -->
+
+    <!-- Toast Notification Popup -->
+    <div id="toast-message" class="toast">Notifikasi</div>
+
+  </div> <!-- End .device-wrapper -->
+
+  <script src="js/app.js"></script>
+</body>
+</html>

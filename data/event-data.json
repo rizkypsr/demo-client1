@@ -1,0 +1,159 @@
+{
+  "event": {
+    "title": "Exclusive Bali Cultural & Island Tour 2026",
+    "destination": "Bali, Indonesia",
+    "dates": "24 - 26 Oktober 2026",
+    "theme": "Explore the Beauty, Create Unforgettable Memories",
+    "announcement": "Kumpul di Bandara Soekarno-Hatta Terminal 3 (Gate 4) paling lambat pukul 05:30 WIB."
+  },
+  "destinasi_populer": [
+    { "nama": "Pantai Jimbaran", "kategori": "Sunset & Seafood Dinner", "icon": "🌅" },
+    { "nama": "GWK Cultural Park", "kategori": "Wisata Budaya & Landmark", "icon": "🗿" },
+    { "nama": "Pantai Melasti", "kategori": "Tebing Eksotis & Pasir Putih", "icon": "🏖️" },
+    { "nama": "Desa Wisata Penglipuran", "kategori": "Desa Terbersih & Alam", "icon": "🌿" }
+  ],
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "date": "Jumat, 24 Oktober 2026",
+      "title": "Kedatangan & Eksplorasi Bali Selatan",
+      "dresscode": "Polo Shirt Biru + Celana Santai",
+      "schedule": [
+        {
+          "time": "05:30 - 06:30",
+          "title": "Kumpul di Bandara Soekarno-Hatta (CGK)",
+          "location": "Terminal 3 Gate 4, Jakarta",
+          "desc": "Registrasi kehadiran fisik peserta, pembagian boarding pass, bagasi tag, dan snack box sarapan.",
+          "icon": "🛫"
+        },
+        {
+          "time": "07:30 - 10:20",
+          "title": "Penerbangan Jakarta ➔ Bali",
+          "location": "Garuda Indonesia GA-404",
+          "desc": "Terbang menuju Bandara Internasional I Gusti Ngurah Rai (DPS).",
+          "icon": "✈️"
+        },
+        {
+          "time": "11:00 - 13:00",
+          "title": "Welcome Lunch Khas Bali",
+          "location": "Bebek Tepi Sawah, Tuban",
+          "desc": "Makan siang kuliner khas Bali dan pengarahan singkat seputar rangkaian tour.",
+          "icon": "🍽️"
+        },
+        {
+          "time": "13:30 - 15:30",
+          "title": "Wisata Budaya GWK Cultural Park",
+          "location": "Ungasan, Kuta Selatan",
+          "desc": "Mengunjungi patung megah Garuda Wisnu Kencana, spot foto panorama tebing kapur dan pertunjukan seni.",
+          "icon": "🗿"
+        },
+        {
+          "time": "16:00 - 17:30",
+          "title": "Check-in Hotel & Refreshment",
+          "location": "The Westin Resort Nusa Dua",
+          "desc": "Pembagian kunci kamar, istirahat dan persiapan makan malam santai di tepi pantai.",
+          "icon": "🏨"
+        },
+        {
+          "time": "18:00 - 20:30",
+          "title": "Sunset Dinner di Jimbaran Bay",
+          "location": "Jimbaran Beach Front",
+          "desc": "Menikmati makan malam hidangan laut segar saat matahari terbenam dengan iringan live acoustic.",
+          "icon": "🌅"
+        }
+      ]
+    },
+    {
+      "day": "Day 2",
+      "date": "Sabtu, 25 Oktober 2026",
+      "title": "Pantai Eksotis & Malam Kebersamaan",
+      "dresscode": "Kaos Tim Divisi + Sepatu Santai / Kets",
+      "schedule": [
+        {
+          "time": "06:30 - 08:00",
+          "title": "Sarapan Pagi Buffet",
+          "location": "Seasonal Tastes Restaurant (Westin)",
+          "desc": "Sarapan menu internasional di resort untuk mengisi energi petualangan hari kedua.",
+          "icon": "☕"
+        },
+        {
+          "time": "08:30 - 12:00",
+          "title": "Eksplorasi Pantai Melasti & Fun Activity",
+          "location": "Pantai Melasti, Ungasan",
+          "desc": "Menikmati keindahan tebing kapur berkelok, pasir putih bersih, foto bersama, dan permainan pantai seru.",
+          "icon": "🏖️"
+        },
+        {
+          "time": "12:30 - 14:00",
+          "title": "Makan Siang & Kelapa Muda Segar",
+          "location": "Local Coastal Bistro, Ungasan",
+          "desc": "Santap siang santai dengan pemandangan langsung ke Samudera Hindia.",
+          "icon": "🥥"
+        },
+        {
+          "time": "15:00 - 17:30",
+          "title": "Waktu Luang di Resort / Spa",
+          "location": "The Westin Nusa Dua Area",
+          "desc": "Waktu bebas menikmati pantai privat hotel, kolam renang laguna, atau beristirahat.",
+          "icon": "🌴"
+        },
+        {
+          "time": "18:30 - 22:00",
+          "title": "Gala Dinner & Celebration Night",
+          "location": "Grand Ballroom The Westin",
+          "desc": "Malam puncak apresiasi, santap malam eksklusif, pertunjukan musik, dan pembagian doorprize.",
+          "icon": "🎉"
+        }
+      ]
+    },
+    {
+      "day": "Day 3",
+      "date": "Minggu, 26 Oktober 2026",
+      "title": "Wisata Oleh-oleh & Kepulangan",
+      "dresscode": "Pakaian Santai / Casual Bebas",
+      "schedule": [
+        {
+          "time": "07:00 - 09:30",
+          "title": "Sarapan Pagi & Morning Walk",
+          "location": "Nusa Dua Beach Pathway",
+          "desc": "Jalan pagi santai menikmati udara segar pantai dan sarapan terakhir di resort.",
+          "icon": "🍳"
+        },
+        {
+          "time": "10:30 - 11:30",
+          "title": "Check-out Hotel & Muat Bagasi Bus",
+          "location": "Lobby The Westin",
+          "desc": "Pengumpulan kunci kamar dan penitipan koper ke dalam bagasi bus masing-masing divisi.",
+          "icon": "🧳"
+        },
+        {
+          "time": "12:00 - 15:00",
+          "title": "Belanja Oleh-oleh Khas Bali & Lunch",
+          "location": "Krisna Oleh-oleh Bali & Resto",
+          "desc": "Waktu belanja pie susu, kacang disco, kain pantai, dan cinderamata khas Bali dilanjutkan makan siang.",
+          "icon": "🛍️"
+        },
+        {
+          "time": "16:00 - 17:30",
+          "title": "Menuju Bandara Ngurah Rai (DPS)",
+          "location": "Terminal Keberangkatan Domestik",
+          "desc": "Proses check-in tiket pesawat kepulangan dan drop bagasi.",
+          "icon": "🚌"
+        },
+        {
+          "time": "19:00 - 20:00",
+          "title": "Penerbangan Bali ➔ Jakarta",
+          "location": "Garuda Indonesia GA-419",
+          "desc": "Mendarat kembali di Bandara Soekarno-Hatta (CGK). Terima kasih telah bergabung dalam perjalanan ini!",
+          "icon": "✈️"
+        }
+      ]
+    }
+  ],
+  "tips_travel": [
+    "Bawa kartu identitas (KTP / Passport) asli untuk tiket penerbangan.",
+    "Siapkan pakaian ganti santai, topi pantai, kacamata hitam, dan sunscreen.",
+    "Bawa obat-obatan pribadi yang dibutuhkan secara khusus.",
+    "Pastikan baterai smartphone terisi penuh untuk dokumentasi momen perjalanan."
+  ]
+}
